@@ -1,10 +1,10 @@
 import React from "react";
-import morf from "../../Assests/form.png";
+import morf from "../../assets/form.png";
 const Form = () => {
   return (
     <>
       <div className='bg-[#060606] flex items-center justify-around text-white py-32 flex-wrap-reverse'>
-        <div>
+        <div className="text-left">
           <h1 className='text-3xl font-semibold capitalize '>
             Are you ready for better way <br /> to manage your ESOPs?
           </h1>

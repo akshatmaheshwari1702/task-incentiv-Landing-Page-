@@ -1,4 +1,6 @@
 import React from "react";
+import { IoLocationSharp } from "react-icons/io5";
+import { GrMail } from "react-icons/gr";
 
 const Items = [
   "Al trademarks and logos or registered trademarks and logos found on this Site or mentioned herein belong to their respective owners and are solely being used for informational purposes.",
@@ -13,7 +15,7 @@ const Footer = () => {
   return (
     <>
      
-      <div className='bg-[#0D1329] px-36 pt-10 pb-32 flex flex-col gap-12 flex-wrap'>
+      <div className='bg-[#0D1329] px-36 pt-10 pb-32 flex flex-col gap-12 flex-wrap text-left'>
       
         <h1 className='text-2xl text-blue-400 font-bold mb-4'>incentive.</h1>
         <div className='flex items-start justify-between flex-wrap md:gap-10 sm:gap-10 max-[600px]:gap-10 '>
@@ -27,12 +29,14 @@ const Footer = () => {
           </div>
           <div>
             <h1 className='text-xl text-blue-400 font-bold mb-5'>Contacts</h1>
-            <div className='flex items-center gap-4 my-4'>
+            <div className='flex items-center gap-4 my-4 '>
+              <span className="text-blue-400 text-xl"><GrMail /></span>
               <p className='text-gray-400 font-semibold text-lg'>
                 support@incentive.in
               </p>
             </div>
             <div className='flex items-start gap-4'>
+              <span className="text-blue-400 text-xl"><IoLocationSharp /></span>
               <p className='text-gray-400 font-semibold text-lg'>
                 Beginest Harbour 4, Indiranagar,
                 <br />

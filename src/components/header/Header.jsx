@@ -1,8 +1,6 @@
-import React from 'react';
-import Frame4 from '../../Assests/Frame4.png';
-import Frame5 from '../../Assests/Frame5.png';
-
-
+import React from 'react'
+import frame1 from '../../assets/Frame1.png';
+import frame2 from '../../assets/Frame2.png'
 const Header = () => {
   return (
     <div className='bg-black text-gray-400 p-16 pb-32 flex gap-8'>
@@ -12,8 +10,8 @@ const Header = () => {
             <button className='text-base py-2 px-12 font-mono font-bold text-white bg-gradient-to-r from-blue-600 to-blue-400 rounded-md my-4'>Request Demo</button>
         </div>
         <div className='flex p-4 relative gap-4'>
-            <img src={Frame4} alt="" className='w-64 h-80'/>
-              <img src={Frame5} alt="" className='w-80 h-90 absolute top-32 left-72' />
+            <img src={frame2} alt="" className='w-64 h-80'/>
+              <img src={frame1} alt="" className='w-80 h-90 absolute top-32 left-72' />
         </div>
     </div>
   )
