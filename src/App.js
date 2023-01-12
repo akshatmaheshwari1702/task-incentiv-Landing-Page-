@@ -1,19 +1,12 @@
-import React from 'react';
+import "./App.css";
+import Indexx from "./components/Indexx";
 
-import { Footer, Header } from './containers';
-import { CTA, Brand, Navbar } from './components';
-
-import './App.css';
-
-const App = () => (
-  <div className="App">
-    <div className="gradient__bg">
-      <Navbar />
-      <Header />
+function App() {
+  return (
+    <div className='App'>
+      <Indexx />
     </div>
-    
-    <Footer />
-  </div>
-);
+  );
+}
 
 export default App;
