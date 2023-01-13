@@ -8,7 +8,7 @@ const Navbar = () => {
       <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
         <div>
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
-            <a href="javascript:void(0)">
+            <a href="google.com">
               <h2 className="text-2xl text-gray-500 font-bold">incentiv.</h2>
             </a>
             <div className="md:hidden">
@@ -57,16 +57,16 @@ const Navbar = () => {
           >
             <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
               <li className="text-white hover:text-blue-600">
-                <a href="javascript:void(0)">Features</a>
+                <a href="google.com">Features</a>
               </li>
               <li className="text-white hover:text-blue-600">
-                <a href="javascript:void(0)">About Us</a>
+                <a href="google.com">About Us</a>
               </li>
               <li className="text-white hover:text-blue-600">
-                <a href="javascript:void(0)">Pricing</a>
+                <a href="google.com">Pricing</a>
               </li>
               <li className="text-white hover:text-blue-600">
-                <a href="javascript:void(0)">Log In</a>
+                <a href="google.com">Log In</a>
               </li>
             </ul>
           </div>
