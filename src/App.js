@@ -1,4 +1,5 @@
 import "./App.css";
+import "./index.css";
 import Indexx from "./components/Indexx";
 
 function App() {
